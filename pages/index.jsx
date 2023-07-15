@@ -18,10 +18,10 @@ export default function Home() {
       <div className="bg">
         <Header />
         <div className="text-center mt-20">
-          <h1 className="text-3xl font-mono text-white font-bold">
+          <h1 className="md:text-3xl font-mono text-white font-bold">
             <span className="text-blue-600">Serendia</span> Yazılım Hizmetleri
           </h1>
-          <p className="text-white text-lg">
+          <p className="text-white md:text-lg text-[12px]">
             Farklı alanlarda kaliteli ve hızlı hizmetler
           </p>
         </div>
@@ -29,15 +29,15 @@ export default function Home() {
 
       {/* Projeler */}
       <div className="flex flex-col items-center mt-10">
-        <h1 className="text-2xl font-bold font-mono">Projelerimiz</h1>
-        <p className="text-lg">Farklı alanlarda Projelerimiz</p>
+        <h1 className="md:text-2xl font-bold font-mono">Projelerimiz</h1>
+        <p className="md:text-lg">Farklı alanlarda Projelerimiz</p>
         <ProjectUİ />
       </div>
 
       {/* Hizmetler */}
       <div className="flex  flex-col items-center gap-3 mt-32">
-        <h1 className="text-2xl font-bold font-mono">Hizmetlerimiz</h1>
-        <p className="text-lg">Farklı alanlarda tecrübeli ve hızlı hizmetler</p>
+        <h1 className="md:text-2xl font-bold font-mono text-lg">Hizmetlerimiz</h1>
+        <p className="md:text-lg text-[12px]">Farklı alanlarda tecrübeli ve hızlı hizmetler</p>
         <Services />
       </div>
 

@@ -7,21 +7,21 @@ import {
 import { BiLogoDiscordAlt } from "react-icons/bi";
 
 const Footer = () => {
-    const tarih = new Date()
+  const tarih = new Date();
   return (
     <>
       <div className="bg-blue-800 w-full h-[350px] mt-32 flex items-center justify-center">
         <div className="text-center flex flex-col gap-3 items-center relative">
           <div>
-            <h1 className="font-bold text-white font-mono text-2xl">
+            <h1 className="font-bold text-white font-mono md:text-2xl">
               <span className="text-blue-400">Serendia</span> Yazılım
             </h1>
-            <p className="text-white font-mono">
+            <p className="text-white font-mono md:text-[13px] text-[10px]">
               Kaliteli Yazılımın Tek Adresi
             </p>
           </div>
-          <div className="before:contents-[''] before:w-full before:h-1 before:bg-orange-600 before:absolute before:top-16 before:left-0"></div>
-          <div className="flex gap-5 bg-white w-full items-center justify-center h-[40px] rounded-lg">
+          <div className="before:contents-[''] before:w-full before:h-[2px] before:bg-orange-600 before:absolute before:top-14 before:left-0 md:flex hidden"></div>
+          <div className="flex flex-wrap bg-white md:w-full w-[40px] items-center justify-center md:h-[40px] h-full rounded-lg">
             <a
               href="#"
               className="text-pink-600 text-2xl hover:bg-blue-700 hover:text-white rounded-full p-2"
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className="bg-blue-800">
         <div className="flex justify-center">
-          <h1 className="text-white font-bold">
+          <h1 className="text-white font-bold md:text-[16px] text-[12px]">
             Copyright © {tarih.getFullYear()} Tüm Hakları Saklıdır.{" "}
             <a href="#" className="text-orange-600">
               Serendia Yazılım

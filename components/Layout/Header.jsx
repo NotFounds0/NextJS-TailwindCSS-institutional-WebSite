@@ -41,7 +41,7 @@ const Header = () => {
                 href="/"
                 className={`${
                   router.asPath === "/"
-                    ? "text-blue-500 font-medium"
+                    ? "text-blue-500 font-medium underline underline-offset-4"
                     : "text-gray-300 font-medium"
                 }`}
               >
@@ -53,7 +53,7 @@ const Header = () => {
                 href="#"
                 className={`${
                   router.asPath === "/Services"
-                    ? "text-blue-500 font-medium"
+                    ? "text-blue-500 font-medium underline underline-offset-4"
                     : "text-gray-300 font-medium"
                 }`}
               >
@@ -65,7 +65,7 @@ const Header = () => {
                 href="#"
                 className={`${
                   router.asPath === "/Buy"
-                    ? "text-blue-500 font-medium"
+                    ? "text-blue-500 font-medium underline underline-offset-4"
                     : "text-gray-300 font-medium"
                 }`}
               >
@@ -77,7 +77,7 @@ const Header = () => {
                 href="/Abouts"
                 className={`${
                   router.asPath === "/Abouts"
-                    ? "text-blue-500 font-medium"
+                    ? "text-blue-500 font-medium underline underline-offset-4"
                     : "text-gray-300 font-medium"
                 }`}
               >
