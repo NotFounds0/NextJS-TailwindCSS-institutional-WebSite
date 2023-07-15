@@ -1,11 +1,18 @@
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
+  const router = useRouter();
   const [isOpenNav, setOpenNav] = useState(false);
   return (
-    <nav className=" border-b-2 border-gray-600 shadow-lg shadow-black h-[100px] flex items-center justify-between px-10">
+    <nav
+      className={`${
+        router.asPath === "/" ? "bg-transparent" : "bg-gray-800"
+      } border-b-2 border-gray-600 shadow-lg shadow-black h-[100px] flex items-center justify-between px-10`}
+    >
       <div className="md:flex items-center gap-3">
         <Image
           src={"/img/serendia.png"}
@@ -27,19 +34,55 @@ const Header = () => {
         </button>
         <div className={`z-50`}>
           <ul
-            className={`md:flex hidden md:static bg-gray-800 md:bg-transparent absolute top-[100px] w-full h-[130px] justify-center items-center text-center left-0 md:gap-3 text-gray-300 font-medium`}
+            className={`md:flex hidden md:static bg-gray-800 md:bg-transparent absolute top-[100px] w-full h-[130px] justify-center items-center text-center left-0 md:gap-3 `}
           >
             <li className="">
-              <a href="#">AnaSayfa</a>
+              <Link
+                href="/"
+                className={`${
+                  router.asPath === "/"
+                    ? "text-blue-500 font-medium"
+                    : "text-gray-300 font-medium"
+                }`}
+              >
+                AnaSayfa
+              </Link>
             </li>
             <li className="">
-              <a href="#">Hizmetlerimiz</a>
+              <a
+                href="#"
+                className={`${
+                  router.asPath === "/Services"
+                    ? "text-blue-500 font-medium"
+                    : "text-gray-300 font-medium"
+                }`}
+              >
+                Hizmetlerimiz
+              </a>
             </li>
             <li className="">
-              <a href="#">Satın al</a>
+              <a
+                href="#"
+                className={`${
+                  router.asPath === "/Buy"
+                    ? "text-blue-500 font-medium"
+                    : "text-gray-300 font-medium"
+                }`}
+              >
+                Satın al
+              </a>
             </li>
             <li className="">
-              <a href="#">Hakkımızda</a>
+              <Link
+                href="/Abouts"
+                className={`${
+                  router.asPath === "/Abouts"
+                    ? "text-blue-500 font-medium"
+                    : "text-gray-300 font-medium"
+                }`}
+              >
+                Hakkımızda
+              </Link>
             </li>
           </ul>
         </div>

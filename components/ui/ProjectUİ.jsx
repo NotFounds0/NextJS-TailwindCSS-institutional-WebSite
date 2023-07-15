@@ -4,7 +4,7 @@ import React from "react";
 const ProjectUİ = () => {
   return (
     <div className="px-10 mt-10  flex flex-wrap gap-10 justify-center">
-      <div className="h-[200px] md:w-[470px] w-full justify-center shadow-lg shadow-black flex px-5 rounded-bl-[10px] rounded-tl-[50px] rounded-tr-[10px] rounded-br-[50px]">
+      <div className="hover:scale-105 hover:-translate-y-6 duration-300 h-[200px] md:w-[470px] w-full justify-center shadow-lg shadow-black flex px-5 rounded-bl-[10px] rounded-tl-[50px] rounded-tr-[10px] rounded-br-[50px]">
         <div className="flex items-center gap-2">
           <div className="relative w-[100px] h-[100px] ">
             <Image
@@ -21,7 +21,7 @@ const ProjectUİ = () => {
           </div>
         </div>
       </div>
-      <div className="h-[200px] md:w-[470px] md:justify-start w-full justify-center shadow-lg shadow-black flex px-5 rounded-bl-[10px] rounded-tl-[50px] rounded-tr-[10px] rounded-br-[50px]">
+      <div className="hover:scale-105 hover:-translate-y-6 duration-300 h-[200px] md:w-[470px] md:justify-start w-full justify-center shadow-lg shadow-black flex px-5 rounded-bl-[50px] rounded-tl-[10px] rounded-tr-[50px] rounded-br-[10px]">
         <div className="flex items-center gap-2">
           <div className="relative w-[100px] h-[100px] ">
             <Image
@@ -33,7 +33,7 @@ const ProjectUİ = () => {
           </div>
           <div className="flex flex-col">
             <h1 className="flex flex-col text-[20px] text-blue-600 font-bold">
-              Serendia Yazılım
+              Serendia Mod
               <span className="text-[15px] font-mono text-black underline underline-offset-2">
                 Oyunlarda Yaratıcılığın Ötesi
               </span>

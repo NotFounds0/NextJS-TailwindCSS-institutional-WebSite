@@ -1,6 +1,9 @@
+import Footer from "@/components/Layout/Footer";
 import Header from "@/components/Layout/Header";
 import ProjectUİ from "@/components/ui/ProjectUİ";
+import Services from "@/components/ui/Services";
 import Head from "next/head";
+import Image from "next/image";
 import { TbWorld } from "react-icons/tb";
 
 export default function Home() {
@@ -27,9 +30,18 @@ export default function Home() {
       {/* Projeler */}
       <div className="flex flex-col items-center mt-10">
         <h1 className="text-2xl font-bold font-mono">Projelerimiz</h1>
-        <p className="text-lg">Farklı alanlarda tecrübeli ve hızlı hizmetler</p>
+        <p className="text-lg">Farklı alanlarda Projelerimiz</p>
         <ProjectUİ />
       </div>
+
+      {/* Hizmetler */}
+      <div className="flex  flex-col items-center gap-3 mt-32">
+        <h1 className="text-2xl font-bold font-mono">Hizmetlerimiz</h1>
+        <p className="text-lg">Farklı alanlarda tecrübeli ve hızlı hizmetler</p>
+        <Services />
+      </div>
+
+      <Footer />
     </>
   );
 }
