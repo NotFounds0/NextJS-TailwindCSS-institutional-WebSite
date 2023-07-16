@@ -10,6 +10,10 @@ const Abouts = () => {
       <Header />
       <Head>
         <title>Hakkımızda</title>
+        <meta
+          name="description"
+          content="Serendia Yazılım - Hakkımızda & Biz kimiz"
+        />
       </Head>
       <h1 className="text-center text-3xl font-bold mt-10">Biz Kimiz?</h1>
       {/* vizyon */}
@@ -78,7 +82,7 @@ const Abouts = () => {
         </span>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

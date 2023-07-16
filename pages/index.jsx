@@ -12,6 +12,10 @@ export default function Home() {
       <Head>
         <title>Seredia Yazılım</title>
         <link rel="icon" href="/img/serendia.png" type="icon" />
+        <meta
+          name="description"
+          content="Serendia Yazılım - Kalite & Tecrübe"
+        />
       </Head>
 
       {/* Arkaplan */}
@@ -36,8 +40,12 @@ export default function Home() {
 
       {/* Hizmetler */}
       <div className="flex  flex-col items-center gap-3 mt-32">
-        <h1 className="md:text-2xl font-bold font-mono text-lg">Hizmetlerimiz</h1>
-        <p className="md:text-lg text-[12px]">Farklı alanlarda tecrübeli ve hızlı hizmetler</p>
+        <h1 className="md:text-2xl font-bold font-mono text-lg">
+          Hizmetlerimiz
+        </h1>
+        <p className="md:text-lg text-[12px]">
+          Farklı alanlarda tecrübeli ve hızlı hizmetler
+        </p>
         <Services />
       </div>
 
