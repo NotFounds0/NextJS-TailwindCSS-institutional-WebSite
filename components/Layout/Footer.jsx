@@ -10,11 +10,11 @@ const Footer = () => {
   const tarih = new Date();
   return (
     <>
-      <div className="bg-blue-800 w-full h-[350px] mt-32 flex items-center justify-center">
+      <div className="bg-blue-900 w-full h-[350px] mt-32 flex items-center justify-center">
         <div className="text-center flex flex-col gap-3 items-center relative">
           <div>
             <h1 className="font-bold text-white font-mono md:text-2xl">
-              <span className="text-blue-400">Serendia</span> Yazılım
+              <span className="text-blue-400">Company</span> Name
             </h1>
             <p className="text-white font-mono md:text-[13px] text-[10px]">
               Kaliteli Yazılımın Tek Adresi
@@ -54,7 +54,7 @@ const Footer = () => {
           <h1 className="text-white font-bold md:text-[16px] text-[12px]">
             Copyright © {tarih.getFullYear()} Tüm Hakları Saklıdır.{" "}
             <a href="#" className="text-orange-600">
-              Serendia Yazılım
+              Company Name
             </a>
           </h1>
         </div>

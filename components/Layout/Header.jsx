@@ -22,7 +22,7 @@ const Header = () => {
           className="rounded-full"
         />
         <h1 className="text-xl text-white hidden md:flex">
-          <span className="text-blue-600 font-bold">Serendia</span> Yazılım
+          <span className="text-blue-600 font-bold">Company </span> Name
         </h1>
       </div>
       <div>
@@ -49,8 +49,8 @@ const Header = () => {
               </Link>
             </li>
             <li className="">
-              <a
-                href="#"
+              <Link
+                href="/Services"
                 className={`${
                   router.asPath === "/Services"
                     ? "text-blue-500 font-medium underline underline-offset-4"
@@ -58,11 +58,11 @@ const Header = () => {
                 }`}
               >
                 Hizmetlerimiz
-              </a>
+              </Link>
             </li>
             <li className="">
-              <a
-                href="#"
+              <Link
+                href="/Buy"
                 className={`${
                   router.asPath === "/Buy"
                     ? "text-blue-500 font-medium underline underline-offset-4"
@@ -70,7 +70,7 @@ const Header = () => {
                 }`}
               >
                 Satın al
-              </a>
+              </Link>
             </li>
             <li className="">
               <Link

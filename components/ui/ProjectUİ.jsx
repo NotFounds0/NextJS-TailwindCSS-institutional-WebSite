@@ -16,7 +16,7 @@ const ProjectUİ = () => {
           </div>
           <div className="flex flex-col">
             <h1 className="flex flex-col text-[20px] text-blue-600 font-bold">
-              Serendia Yazılım
+              Company Name
             </h1>
           </div>
         </div>

@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Seredia Yazılım</title>
-        <link rel="icon" href="/img/serendia.png" type="icon" />
+        <title>Company Name - AnaSayfa</title>
+
         <meta
           name="description"
           content="Serendia Yazılım - Kalite & Tecrübe"
@@ -23,7 +23,7 @@ export default function Home() {
         <Header />
         <div className="text-center mt-20">
           <h1 className="md:text-3xl font-mono text-white font-bold">
-            <span className="text-blue-600">Serendia</span> Yazılım Hizmetleri
+            <span className="text-blue-600">Company Name</span> Yazılım Hizmetleri
           </h1>
           <p className="text-white md:text-lg text-[12px]">
             Farklı alanlarda kaliteli ve hızlı hizmetler

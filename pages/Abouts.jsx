@@ -9,7 +9,7 @@ const Abouts = () => {
     <>
       <Header />
       <Head>
-        <title>Hakkımızda</title>
+        <title>Serendia Yazılım - Hakkımızda</title>
         <meta
           name="description"
           content="Serendia Yazılım - Hakkımızda & Biz kimiz"
